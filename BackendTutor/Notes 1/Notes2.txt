@@ -1,0 +1,91 @@
+Node js
+
+Node is not a language/ Technology/ Framework/ Lebrary and software.
+node is a js runtime environment
+
+JS se backend nahi ban sakta qk js k pass wo functionalities nahi he jisse backend banta he.
+
+Google chrome v8 engine c++ me bana hua he.
+Ryan Dahl ne google chrome ka v8 engine me changes kar k JS code ki wrapper layer ka machenism 
+lagaya or fir is tarah JS runtime envronment bana jise hum node js kehte he
+
+Hum jo code likhenge use Node ki wrapper layer of js receive karegi. Fir wo convert karegi hamare
+code ko c++ language me and wo code v8 engine k c++ modules k sath ek server create karega. Or is
+tarah hum Node ki help se backend bana sakte he or backend bhi tb tk chalega jab tk node chalega.
+
+
+npm: Node Package Manager.
+
+NPM Store is a packages store. Jaha official and non official packages available hote he jiska use hum apne code me 
+kar sakte he. 
+
+Node use karne k liye folder ko node se initialize karna compulsory hota he.
+    Terminal=>npm init and then Project se related jo bhi information he wo enter kar denge.
+    After this hume ek file milegi package.json. Ye file All information contain kar k rakhti he project ki.
+
+How to use Node Packages in our project:
+Here we use FS package
+
+
+    const fs = require('fs');
+
+    fs.writeFile("MyFile.txt", It is My File, function(err){
+        if(err){
+            console.error("err");
+        }
+        else{
+            console.log("Done")
+        }
+    })
+
+
+    fs.appendFile("MyFile.txt", It is udate Now, function(err){
+        if(err){
+            console.error("err");
+        }
+        else{
+            console.log("Done")
+        }
+    })
+
+
+    fs.rename("MyFile.txt", RenamedMyFile.txt, function(err){
+        if(err){
+            console.error("err");
+        }
+        else{
+            console.log("Done")
+        }
+    })
+
+
+    fs.copyFile("RenamedMyFile.txt, "./copy/myfile.txt", function(err){
+        if(err){
+            console.error("err.message");
+        }
+        else{
+            console.log("Done")
+        }
+    })
+
+    fs.unlink("myfile.txt", function(err){
+        if(err){
+            console.error("err.message");
+        }
+        else{
+            console.log("Remove")
+        }
+    })
+leran more from node documentation
+
+
+
+Here we use HTTP package:
+
+    const http = require('http');
+    
+    const server = http.createServer(function(req, res){
+        res.end("Hello World")
+    });
+
+    server.listen(3000);       ctrl+C for use server close

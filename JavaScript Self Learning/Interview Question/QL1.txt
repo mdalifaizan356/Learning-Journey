@@ -1,0 +1,37 @@
+What is JavaScript?
+Advanteges and disadvanteges of Java sciptt?
+What is speciality of JavaScript?
+
+What is Variable in JavaScript?
+How many way to declair Variable in JavaScript?
+Difference between  var, let and const?
+Can we have declair variable without var, let and const? If it's true so how can stop it? 
+What is Data type in JavaScript?
+How many types of data type in JavaScript?
+
+What is Function?
+Explain the purpose of using functions in programming.
+Differentiate between function declaration and function expression.
+How many types of function in JavaScript
+How many way to define a function in JavaScript?
+What are the components of a function definition?
+What is a return statement in a function?
+Difference between Arguments and parameter?
+How many types of function behaviour?
+Describe the concept of function scope.
+What is function hoisting?
+What is Callback function?
+What is Arrow function and it's advantages?
+What are the advantages of using named functions over anonymous functions?
+How can you invoke/call a function in JavaScript?
+Explain the concept of recursion in functions.
+How do you pass arguments to a function?
+Describe the concept of higher-order functions.
+What are default parameters in functions? Provide an example.
+What is the difference between function overloading and function overriding?
+Explain the concept of pure functions.
+How do arrow functions differ from regular functions in JavaScript?
+Describe the concept of closures in JavaScript functions.
+
+
+

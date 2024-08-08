@@ -1,0 +1,94 @@
+Myth:
+    Mongo DB Id create karta he jab hum user create karte he. Lekin Sach ye he k mongo db koi Id
+    create nahi karta.
+
+Notes:
+
+1. Array: forEach map filter find indexOf
+Js me aaray me function bhi store hota he.
+
+
+    forEach: Every elemnt pe jane k liye use hotan he.according to code 1
+
+    map: map new array return karta he or usme element bhi utne hi hote he jitne us array me he 
+    jis pr map chalaya he. ye same forEach k jaisa work karta he. according to code 2
+
+    filter: naya array jo banega wo array se chota ho sakta he ya uske barabar banega tb use 
+            hota he filter
+
+    find: Arrayb me element find karne k liye use hota he
+
+    indexOf: Value ki index find karne k liye use kiya jata he
+
+    code1:
+    var arr = [1,2,3,4,5];
+    arr.forEach(function(val){
+        console.log(val+2);
+    });
+
+    code2:
+    var arr = [1,2,3,4,5];
+    var newarr = arr.map(function(val){
+        return 13;
+        return val;
+    });
+    console.log(newarr);
+
+    code3:
+    var arr = [1,2,3,4,5];
+    var newarr = arr.filter(function(val){
+        if(val>=3){
+            return true;
+        }
+        else return false;
+    });
+    console.log(newarr);
+
+
+    code4:
+    var arr = [1,2,2,3,4,5];
+    var newarr = arr.find(function(val){
+        if(val==2){
+            return val;
+        }
+    });
+    console.log(newarr);
+
+
+    code5:
+    var arr = [1,2,2,3,4,5];
+    arr.indexOf(2);
+
+2. Object: Object is a key value pair
+    var obj={
+        name:"Faizan";
+        age:12;
+    }
+    obj.name;
+    obj['name'];
+    Object.freeze(obj);
+    obj.age=25;
+
+3. Function: function is object in js so we can find it lenght. and lenght is number of
+             parameter.
+
+function abcd(a,b,c,d){
+
+}
+lenghtof abcd();
+
+
+
+4. async js coding: 
+    Line by line code chale use kehte he synchronous
+    Jo bhi code async nature ka ho usey side stack me bhej do and agle code ko chalao jo bhi 
+    sync nature ka ho, jab sara syn code chal jaye tab check karo ki async code complete hua k 
+    nahi. and agar wo complete hua ho to usey main stack me le aao and chala do.
+
+    async exaple:
+        async function abcd(){
+            var blob = await fetch('https://randomuser.me/api/');
+            var res = await blob.json();
+            console.log(res.results[0].name);
+        }
+        abcd();

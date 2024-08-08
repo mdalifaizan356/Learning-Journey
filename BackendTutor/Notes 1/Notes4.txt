@@ -1,0 +1,64 @@
+Express JS
+    It is a npm package and it is a framwork. It is manages everything from receiving the 
+    request and giving the response.
+
+Setting up a basic express application.
+    go to npm and install express
+
+    //const http = require('http');
+    //const server = http.createServer(function(req, res){
+      //  res.end("Hello World")
+    //});
+    //server.listen(3000);       ctrl+C for use server close
+
+
+    const express = require('express');
+    const app = express();
+
+    after this we create route setup
+    app.get(route, requestHandler)  //requestHandler is a middelware and middelware is function
+
+    app.get("/", function(req, res, next){
+        res.send("Hii Faizan);
+    })
+
+    app.get("/profile", function(req, res, next){
+        res.send("Hii Faizan);
+    })
+
+    app.listen(3000);
+
+
+Middelware:
+    jab bhi server request accept karta he waha se route k pehle agar hum us request ko beech me 
+    rokte he and kuch perform karte he to ye element middleware kahlata he. iska use case he k 
+    agar request me user information nahi he to hum middleware me code kar k user information 
+    get kar sakte he. then request routing tk pahunchegin or hme user information mil jayegi.
+
+    middleware 2 tarike se lagta he.
+        1 routing code se pehle:
+            Aisa karne pr sabhi request  k liye ek global middleware ban jata he.
+        
+        2.
+
+        app.use(function(req, res, next){
+            console.log("middleware chala");
+            next();
+        });
+
+    app.get("/profile", function(req, res, next){
+        res.send("Hii Faizan);
+    })
+    app.listen(3000);
+
+Error Handling:
+
+        app.get("/profile", function(req, res, next){
+            return next(new Error("Something went wrong"))
+        })
+        app.listen(3000);
+
+        app.use((err,req, res, next)=>{
+            console.error("err.stack");
+            res.status(500).send('Something broke!')
+        });
