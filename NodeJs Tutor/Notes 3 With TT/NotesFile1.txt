@@ -1,0 +1,30 @@
+What is Node Js?
+    Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+    Node.js is a JavaScript running on the server.
+
+History of Node.js
+    In 2009 an idea come in the mind of Ryan Dahl (Google Engineer) that why not run JavaScript outside browser, so he
+    took V8 engine and embedded in a c++ program and called it Node.exe latter on become Node.js
+
+JavaScript engine: Every browser has been own JavaScript engine. Like: Google: V8, Firefox: SpiderMonkey, Safari:Nitro.
+
+When to use Node.js?
+    I/O bound
+    Data Streaming Applications
+    Real time chat applications
+
+What is REPL?
+    The REPL of node is very useful in experimenting with node.js codes and to debug JavaScript codes.
+    It is JavaScript command prompt.
+    
+    Read: Reads user's input, parses the input into JavaScript data-structure, and stores in memory.
+    Eval: Takes and evaluates the data structure.
+    P: Prints the result.
+    L: Loops the above command until the user parses ctrl-c twice.
+
+    Go to REPL environment use command or type in terminal => node.
+    Press tab 2 times for get all core module information.
+
+
+Node.js Core Modules
+    
