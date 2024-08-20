@@ -1,0 +1,12 @@
+JavaScript ki file ka scope scope public karne pr module banta he.
+kisi function or variable ka scope public karna ho ya use module banana ho to use karte he export or exports keyword
+
+exports karte time function or variable ka name same or valid hona chahiye. 
+require or import karte time export function or variable ko kisi bhi name k variable me store kar sakte he.
+require or import karte time file k name pass karte he.
+
+Like
+    export code.
+        module.exports = name;
+    import or require code
+        const myName = require("filename.js"); 

@@ -30,6 +30,10 @@ Node.js Core Modules
     Consider modules to be the same as JavaScript Libraries, A set of functions you want to include in your application.
     Node.js has a set of built-in modules which you can use without any further installation.
 
+    In Node.ja every individual file known as module. or har file k code ka scope private hota he jis wajah se hum us
+    file k code ko kisi dusri file me access nahi kar sakte. Iske liye hme code ka scope public karna hota he exports 
+    ki help se.
+
 fs core module 
     writeFileSync method ka use karne pr agar file exist nahi karti he to file create karne k baad data store kar deta he.
     but agar file exist karti he to data ko completely delete kar deta he or new data k sath replace ya overwrite kar 
@@ -43,10 +47,19 @@ fs core module
     Buffer is mainly used to store binary data.
     While reading from a file or receiving packets over the network.
 
-    CRUD operation using fs module.
+    Sync and Async CRUD operation using fs module.
         Create a folder named it myData.
         Create a file in it named bio.txt and add data into it.
         Add more data into the file at the end of the existing data.
         Read data without getting the buffer data at first using file encoding
         Rename the file name to mybio.txt.
         Now delete both file and folder.
+
+
+Os Module
+    OS module user system k os ki informartion ko collect karta he.
+
+Path Modules
+    Validation me ye check karna he k specific file type upload ho waha iska use ho sakta he.
+    Ya kisi file ka root directory pata karna ho kisi file ka path pata karna ho to iska use ho sakta he.
+    
