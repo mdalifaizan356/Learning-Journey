@@ -1,0 +1,5 @@
+NPM
+    It stand for Node Package Manager
+
+package.json: It contain meta data or information about project.
+package-lock.json: It contain detailed information about installed packages.

@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+.container{
+    border: 2px solid blue;
+    width: 50%;
+    margin: auto;
+    margin-top:10%;
+    height: 50vh;
+    background-color: #eee;
+    display: grid;
+    grid-template-columns: 50px 50px;
+    grid-template-rows: 50%, 50%;
+}

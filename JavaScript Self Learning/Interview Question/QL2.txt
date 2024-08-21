@@ -49,3 +49,7 @@ Difference between arguments and parameter?
 Default parameter kya hota he?
 Function Closure kya hota he? 
 Nested Function kya hota he?
+
+
+
+

@@ -5,8 +5,12 @@ exports karte time function or variable ka name same or valid hona chahiye.
 require or import karte time export function or variable ko kisi bhi name k variable me store kar sakte he.
 require or import karte time file k name pass karte he.
 
-Like
-    export code.
-        module.exports = name;
-    import or require code
-        const myName = require("filename.js"); 
+kisi file me agar multiple function export karne ho to 1 tarika ye he k har function or variable ko as a property of
+object bana denge. or fir import or require karte time as a object kisi variable me store kar lenge. ya object
+destructuring ka use kar lenge
+
+module.exports.default ka use tb kiya jata he jab koi function or variable important ho or 
+
+
+
+

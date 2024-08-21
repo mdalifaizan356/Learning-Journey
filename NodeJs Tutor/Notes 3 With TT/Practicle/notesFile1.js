@@ -1,7 +1,8 @@
 const fs = require("fs");
 const os = require("os");
 const path = require("path");
-const add = require('./notesFile2');
+const opprations = require('./notesFile2');
+const {add, name, mul}= require('./notesFile2');
 
 //Sync way
     // Create a new file with data.
@@ -123,4 +124,12 @@ const add = require('./notesFile2');
 
 // Own MOdule
     // console.log(add(5,5));
-    console.log(add);
+
+    // console.log(opprations);
+    // console.log(opprations.add(5,5));
+    // console.log(opprations.mul(5,5));
+    // console.log(opprations.name);
+
+    console.log(add(5,5));
+    console.log(mul(5,5));
+    console.log(name);
