@@ -1,0 +1,86 @@
+What is JavaScript?
+Advanteges and disadvanteges of Java sciptt?
+What is speciality of JavaScript?
+
+What is Variable in JavaScript?
+How many way to declair Variable in JavaScript?
+Difference between  var, let and const?
+Can we have declair variable without var, let and const? If it's true so how can stop it? 
+What is Data type in JavaScript?
+How many types of data type in JavaScript?
+
+What is Function?
+Explain the purpose of using functions in programming.
+Differentiate between function declaration and function expression.
+How many types of function in JavaScript
+How many way to define a function in JavaScript?
+What are the components of a function definition?
+What is a return statement in a function?
+Difference between Arguments and parameter?
+How many types of function behaviour?
+Describe the concept of function scope.
+What is function hoisting?
+What is Callback function?
+What is Arrow function and it's advantages?
+What are the advantages of using named functions over anonymous functions?
+How can you invoke/call a function in JavaScript?
+Explain the concept of recursion in functions.
+How do you pass arguments to a function?
+Describe the concept of higher-order functions.
+What are default parameters in functions? Provide an example.
+What is the difference between function overloading and function overriding?
+Explain the concept of pure functions.
+How do arrow functions differ from regular functions in JavaScript?
+Describe the concept of closures in JavaScript functions.
+
+Js mai string kaise define karte he.?
+Js me semicolon Compulsory hota he ya Optional?
+Js me variable kitni tarah se declare hota he?
+Js me "use strict" mode karne par code kya kya limitations ko follow karta he.
+let or var me kya difference he?
+const ko variable bol skte he?
+Variable hoisting kya he?
+Explain kijiye Definition, declaration, Initialization ko.
+Js me string kya he?
+String index kaha se start hota he?
+String index me space count hota he?
+Explain all String k methods.
+Kisi Variable ka data type check karne k liye konsa operator use karte he?
+Js me kitne Data types hote he?
+Js me truthy values kya he?
+Js me falsy values kya he?
+Template String kya he ise kaise impliment karte he?
+String Concatination kya he or ise kaise impliment karte he?
+difference bataye == Vs === and  != Vs !==
+Js me string ko number and nmumber ko string me kaise convert karte he?
+Js me kitne Iterative Control instruction he?
+Js me kitne Decision Control instruction he?
+Js me Switch Case Control instruction hota he?
+Js prompt() function kya he or iski kya limitations he?
+Js me Array kya he?
+Js me Array ko kitne tarike se Initializ kar sakte he?
+Array prototype kya he?
+Explain all Array method?
+Difference between push pop and shift unshift?
+Array ka type check karne k liye konsa operator use karte he?
+Difference between Primitives and Reference Type?
+Array ko copy or clone kaise karte he?
+Array ary const se bana he to push karne pr uski value change q hoti he?
+Array pr while loop, for loop, for in loop, for of loop use karne pr kya difference dekhne ko milte he?
+Array Destructuring kya?
+Js me object kya he?
+Js me object kitni tarah se initialize karte he?
+Js me Object se data access karne k kitne tarike he or unme kya difference he?
+js me object ko kitne tarike se Iterate kar sakte he?
+Js me object computed property kya he?
+What is spread operator and it's limitations?
+What is Object Destructuring?
+What is Nested Destructuring?
+Js me function kya he or ye kitne type k hote he?
+Explan each type of function?
+Function behaviour kya he or kitne type k hote he?
+Function Hoisting kya he?
+Difference between arguments and parameter?
+Default parameter kya hota he?
+Function Closure kya hota he? 
+Nested Function kya hota he?

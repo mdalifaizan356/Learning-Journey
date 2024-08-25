@@ -1,3 +1,0 @@
-What is mongodb?
-What is mongoos
-What is Atlas and Compass

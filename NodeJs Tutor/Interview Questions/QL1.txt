@@ -1,8 +1,0 @@
-What is Node.js?
-History Of Node.js?
-Current Version of Node.js?
-What is REPL in Node.js?
-What is Module in Node.js? Explain it and it's type?
-What is Synchronous and And Asynchronous programming?
-What is different between Node.js and JavaScript?
-What is common js and Es js?

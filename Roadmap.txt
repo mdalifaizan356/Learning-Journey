@@ -1,0 +1,64 @@
+Frontend Technology
+                    HTML
+                    CSS, Bootstrap, Telwind
+                    JavaScript, React.js, Next.js, React Native, Electron.js, Tauri
+
+Backend Technology
+                    PHP: Laravel, codeignitor
+                    Node.js
+
+Database       
+            SQL: MySQL
+            NoSQL: MongoDB
+
+*********************************************************************************************************************
+*********************************************************************************************************************
+
+Learning Way...
+            Frontend:
+                        Create 5 layouts using Flex System with pure HTML and CSS.
+                        Create 5 layouts using Grid System with pure HTML and CSS.
+                        Create 2 layouts using Bootstrap
+                        Create 2 Template using pure HTML and CSS.
+                        Create 2 Template using pure HTML and Bootstrap.
+                        Create 2 Template using pure HTML, CSS and JavaScript after that learn JavaScript with HTML DOM.
+
+            Backend:
+                        Learn core PHP and make digital notes.
+                        Learn Node.js and make digital notes.
+                        Create simple and small website using php CRUD operations.
+                        Create simple and small website using node.js CRUD operations.
+
+            Database
+                        Learn MySQL and make digital notes.
+                        Learn MongoDB and make digital notes.
+            
+            JavaScript
+                        Learn core JavaScript and make digital notes.
+                        Learn advance JavaScript and make digital notes.
+
+*********************************************************************************************************************
+*********************************************************************************************************************
+
+Folder Structure:
+
+                Learning-Journey
+                                Frontend
+                                        HTML
+                                        CSS
+                                        Notes
+
+                                Backend
+                                        PHP
+                                        NodeJs
+
+                                Database
+                                        MySQL
+                                        MongoDB
+
+                                JavaScript
+                                        Core JavaScript
+                                        Advance JavaScript
+
+*********************************************************************************************************************
+*********************************************************************************************************************
