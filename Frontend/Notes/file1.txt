@@ -1,0 +1,57 @@
+Greed Box
+    It is two dimensional grid system. It is handle both row and column in a same time.
+    It is replace float layout.
+    If we know greed box No need of CSS feamework.
+    It's code fast and clean.
+
+Grid Structure
+    Yaha hum without margin and without float lagaye gap de sakte he.Or sabhi element ko ek sath handle kar sakte he.
+
+    Parent div grid container hota he. Isko Grid container banane k liye Parent div pr property use karni hoti he 'display: grid'.
+    Jitne bhi child elements hote he wo 'Grid items' kehlate he.
+    Individual child element 'Grid cell' kehlata he.
+    Top to Down and Left to right line k beech ka gap Gutter kehlata he.
+    Top to Down arrange elements 'Grid Column' kehlate he.
+    Left to Right arrange elements 'Grid Row' kehlate he.
+    Row and Column k beech ka gap 'Grid Area' kehlata he.
+
+Grid Properties
+    Create Grid
+        grid-template-rows: Yaha grid ki Height define karte he.
+        grid-template-columns:Yaha grid ki width define karte he. 
+
+    Grid Gapping
+        grid-row-gap 
+        grid-column-gap
+        grid-gap: It is shorthand of grid-row-gap grid-column-gap
+
+    Grid Positioning and Spanning Grid Items
+        grid-row-start
+        grid-row-end
+        grid-row :It is shorthand of grid-row-start and grid-row-end
+        grid-column-start
+        grid-column-end
+        grid-column: It is shorthand of grid-column-start and grid-column-end
+        grid-area: It is shorthand of grid-row and grid-column
+
+    
+
+
+    grid-template-areas:
+    grid-template
+    justify-items
+    align-items
+    justify-content
+    align-content
+    grid-auto-rows
+    grid-auto-column
+    grid-auto-flow
+    justify-self
+    align-self
+    order
+
+Grid Unit
+    fr:
+        It is grid unit. It is use for both height and width.
+    repeat:
+        it is function and it is take 2 arguments 1st one is number of column and 2nd one is width of column.
