@@ -1,0 +1,18 @@
+Projection:
+    syntax:
+            db.collactionName.find({},{field1:1, field2:1})
+    
+    To include specific fields, use projection with a value of 1 for the fields we want.
+
+    To exclude fields, use projection with a value of 0 for the fields we want to exclude.
+
+    We cannot include and exclude fields simultaneously in the same query projection but _id is
+    exception.
+
+
+Embedded Documents:
+    Query documents inside embedded documents using dot notation.
+
+    syntax:
+            db.collactionName.find({"Parent.child":value})
+

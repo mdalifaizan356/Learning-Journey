@@ -1,0 +1,185 @@
+Managing databases in MongoDB      1.6min
+
+Creating/ Deleting/ Updating Databases
+Creating/ Deleting/ Updating Collections
+
+Default behavior
+=> Jab tk database me ek bhi collection nahi hoga tab tk database ka name show nahi hoga. 
+=> Database k under agar direct ek document insert karte he to collection automatic ban jata he.
+=> Data insert karne pr ek unique id deta he.
+=> Ordered insert
+
+###############################################################################################
+
+Managing Databases and Collections
+    
+    show dbs/ show databases:
+    use databaseName:
+    db.dropDatabase():
+    show collections:
+    db.createCollection("collectionName"):
+    db.collectionName.drop():
+
+###############################################################################################
+
+Insert/ Write Operation in MongoDB
+    Inserting documents in mongoDB
+
+    Syntax:
+        (1)    db.collectionName.insertOne({
+                    field1: value1;
+                    field2: value2;
+                    ...
+                });
+
+        (2)     db.collectionName.insertMany({
+                    {field1: value1, field2: value2;, field3: value3; field4: value4;}
+                    {field1: value1, field2: value2;, field3: value3; field4: value4;}
+                    ...
+                });
+
+
+When to use Quotes and when not to?
+    Special Characters:
+                        if a field name contains special characters or space, or starts with a 
+                        numeric digit, using quotes is necessary.
+
+    Reserved Words:
+                    If a field name is a reserved keyword in MongoDB, use quotes distinguish it
+                    from the reserved keyword.
+
+
+Ordered and Unordered inserts:
+    It also called may be syn and asyn insertion.
+    When executing bulk write operations, "Ordered" and "Unordered" determine the batch behavior.
+
+        Ordered Inserts: Default behavior is Ordered, where MongoDB stops on the first error.
+        db.collectionName.insertMany([doc1, doc2, ...]);
+
+        Unordered Inserts: When executing bulk write operations with unordered flag, MongoDB
+        continue processing after encountering an error.
+        db.collectionName.insertMany([doc1, doc2, ...], ordered: false);
+        
+
+Case Sensitivity in mongoDB:
+    Collections name are case-Sensitive.
+    Field name within documents are also case-Sensitive.
+
+###############################################################################################
+
+Importing JSON in MongoDB
+    Limited to imports of 16MB or smaller
+
+    Array k undar documents na hone par:
+    mongoimport path\jsonfile.json -d databaseName -c collectionName
+
+    Array of an objects hone par:
+    mongoimport path\jsonfile.json -d databaseName -c collectionName --jsonArray
+
+Exporting database in our system
+
+    Array k undar documents na hone par:
+    mongoexport -d databaseName -c collectionName -o path\fileName
+
+###############################################################################################
+
+Read Operations in MongoDB:
+    Reading Documents in MongoDB
+        Finding Documents in MongoDB
+        find()
+        findOne()
+
+    Comparison Operators
+        $eq: 
+            db.collectionName.find({"field":{$eq:value}})
+            db.collectionName.find({"field":{$eq:value}}).count
+
+        $ne:
+            db.collectionName.find({"field":{$ne:value}})
+
+        $gt:
+            db.collectionName.find({"field":{$eq:value}})
+
+        $gte:
+            db.collectionName.find({"field":{$eq:value}})
+
+        $lt:
+            db.collectionName.find({"field":{$eq:value}})
+
+        $lte:
+            db.collectionName.find({"field":{$eq:value}})
+
+        $in:
+            db.collectionName.find({"field":{$in:[value1, value2, value3,.....]}})
+
+        $nin:
+            db.collectionName.find({"field":{$nin:[value1, value2, value3,.....]}})
+
+
+    
+    Cursors in MongoDB
+        Cursors in MongoDB are used to efficiently retrieve large result sets from queries,
+        providing control over the data retrieval process.
+        MongoDB retrives query results in batches using cursor.
+        Cursors are a pointer to the result set on the server.
+        Cursors are used to iterate through query results.
+
+        Automatic Batching: MongoDB retrieves query results in batches once. Default batch size
+                            is usually 101 documens. This improves memory efficiency and network. 
+
+
+        Cursors Method:
+                        count()
+                        limit()
+                        skip()
+                        sort()   1 for ascending and -1 for descending.
+
+
+    Logical  Operators
+        $and:
+            db.collectionName.find({$and:[{condition1}, {condition2},....]})
+            
+            In MongoDB, when we provide multiple fields within a single query document, MongoDB
+            treats them as an implicit AND operation.
+
+        $or:
+            db.collectionName.find({$or:[{condition1}, {condition2},....]})
+
+        $nor:
+            db.collectionName.find({$nor:[{condition1}, {condition2},....]})
+
+        $not:
+            db.collectionName.find({field:{$not:{$Operator:value}}})
+
+        
+    Elements Operators:
+        $exists
+        $type
+        $size
+
+
+
+    Complex expression
+        The $exp operator allows using aggregtion expressions within a query.
+        Usful when you need to compare fields from the same document in a more complex manner.
+
+        Syntax
+                {$exp:{operator:[$field:, value]}}
+                field k sath $ lagana necessary he.
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
