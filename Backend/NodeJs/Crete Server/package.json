@@ -1,14 +1,15 @@
 {
-  "name": "building-http-server",
+  "name": "crete-server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "usingExpress.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node usingExpress.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.19.2",
     "url": "^0.11.4"
   }
 }
