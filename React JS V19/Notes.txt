@@ -15,10 +15,73 @@ Is React.js Library or Framework
 React is all about Component
     React.js application is just tree of such Component.
 
-Why React.js?
+React is declarative or Imperative
     React is declarative because it describes what the UI should look like rather than how to achieve it. This makes
     the code easier to read and maintain, as it is more focused on the end result rather than the steps involved in
     getting there.
 
+How React Works
+    Component => Instance => React Elemrnts => Dom Element => UI
+
+Why React.js Over Vanilla JavaScript
+    Oppose to Vanilla JavaScript, React has a concept called COMPONENTS which combines all HTML, CSS and JavaScript
+    by features instead of separating HTML, CSS and JavaScript completely.
+    React manages updating the DOM (DOcument Object MOdel) with the components written by us.
+
+Why React.js?
+    React is the most popular JavaScript library for building user interfaces.
+    Component based Architecture
+    Declarative UI
+    Rich Ecosystem - npm packages
+    Strong Community Support - Online/ Github
+
+Prerequisites to Learn React.js
+    HTML, CSS, JavaScript
+
+Setting up Development Environment
+    Download and Install Node.js LTS.
+    Download and install any one => VS Code, Visual Stdio, Notepad++, Sublime Text, Vim, IntelliJ, Eclipse, Atom etc.
+
+    Ways of Creating React.js Project
+        Custom
+        create-react-app
+        Without Frameworks (vite, Parcel)
+        With Meta Frameworks (Next.js, Remix, Getsby etc...)
+
+    React Setup using bun
+        npm i -g bun
+        bun create vite
+            Enter Project Name
+            Select React
+            Select JavaScript
+
+
+Folder Structure
+    node_modules:
+        This is the folder which contains all the necessary libraries & dependencies by React.js
+        We can ignore this folder completely.
+
+    public:
+        This folder contains all static files likes images, videos, fonts etc..
+
+    src:
+        This folder contains all source file.
+        App.jsx:
+        main.jsx
     
+    .gitignore
+
+Naming Convention
+    camelCase:
+    PascalCase
+    snake_case
+    kebab-camelCase
+
+JSX in React 
+    React => Component => JSX
+
+    
+
+
+
 
