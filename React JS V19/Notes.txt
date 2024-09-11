@@ -7,6 +7,15 @@ History Of React.js
     ss
     First Code of reract.js "News Feed" On Facebook.
 
+    React.js began as an internal tool for dynamic Facebook component.
+    Created in 2011 but remained private initially.
+    React.js was open sourced by Jordan Walke and Tom Occhino at JSConfUS 2013.
+    Released with the belief that its success at Facebook could benefit others.
+    Initially faced criticism for combining JavaScript and HTML in single file.
+    It was widely hated and criticized becouse of its combination of JavaScript and HTML in single file.
+    It slowly gained traction and blew up in adoption.
+    
+
 Is React.js Library or Framework
     React is not a Framework. React is now a JavaScript Library for building user interfaces.
     It is also know as ReactJS and React.js, so don't get cobnfused if you read different notation in different places.
@@ -38,6 +47,8 @@ Why React.js?
 Prerequisites to Learn React.js
     HTML, CSS, JavaScript
 
+
+
 Setting up Development Environment
     Download and Install Node.js LTS.
     Download and install any one => VS Code, Visual Stdio, Notepad++, Sublime Text, Vim, IntelliJ, Eclipse, Atom etc.
@@ -55,6 +66,29 @@ Setting up Development Environment
             Select React
             Select JavaScript
 
+
+React Working
+React Install karne pr hamare pass by default ek HTML file hoti he. Or yahi HTML file Real DOM Kehlati he.
+Is HTML file me JavaScript inject hoti he or yahi file project ka entry point kehlati he.
+Like
+      <div id="root"></div>
+      <script type="module" src="/src/main.jsx"></script>
+
+Isi k sath hamare pass ek main.jsx file hoti jisme createRoot function ki help se id root ko target kar k
+vertual DOM create hota he. or is Virtual DOM me App.jsx ko import kar k Browser pr render (Show) kiya jata he.
+
+App.jsx file bhi by default react k sath create hoti he. Isme hum basically callBack Function bana rahe hote he.
+isliye is types ki file ko component bola jata he.
+App.jsx or React component XML or JS k combination se banti he.
+
+Function App me return karne se pehle likha gaya code vanilla JavaScript me likha jata he jaise variable
+declaration and console work.or return karte time code XML or JS =JSX me likha jata he. 
+Yaha laxical scope or function clousure ka concept dekhne ko milta he.
+
+Component me sirf ek value return hoti he isliye hume overall return material ka parent tag banana compulsory
+ho jata he.  Ek parent tag me sabhi tag ko as a child tag wrap kar diya jata he.
+form, header, div, section, nav etc ki help se parent tag bana sakte he. sath me hum <>sugar fragment</>
+ka use bhi kar sakte he.
 
 Folder Structure
     node_modules:
@@ -79,6 +113,43 @@ Naming Convention
 
 JSX in React 
     React => Component => JSX
+    React is all about is component and component is a JavaScript function which return jsx.
+    Jo bhi function jsx return karta he component kehlata he.
+    Component: In React basically function is component and inbuuilt functkon called as a hooks.
+
+    JSX stands for JavaScript XML. It allows you to write HTML elements in JavaScript and place them in the DOM
+    Without any createElement() and appendChild() methods.
+    It is a syntactical sugar introduced by Facebook for writting React.js components easily.
+
+
+Component in React.js
+    ss
+    component name ka firstLetter capital hota he.
+
+React Fragments
+    SS
+    React.Fragment or Fragment
+    array with keys
+
+Dynamic Values in JSX
+    ss
+
+
+Conditional rendring in react
+ss with practice
+
+Import and Export in React
+ss
+
+
+
+
+
+parameter actual formal
+arguments actual formal
+
+
+
 
     
 
