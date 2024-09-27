@@ -11,3 +11,4 @@ function myFunction(...args) {
 }
 const args = [0, 1, 2];
 console.log(myFunction(...args));
+

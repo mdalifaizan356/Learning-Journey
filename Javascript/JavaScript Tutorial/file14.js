@@ -39,7 +39,7 @@
     // console.log(myvar1,myvar2, restKeys);
     
 
-// //Object in Array and iterate it
+// //Object inside Array and iterate it
 //     const users=[
 //         {userId:1, firstName:"Faizan", Gender:"Male"},
 //         {userId:2, firstName:"Priya", Gender:"Female"},
@@ -56,7 +56,15 @@
 
 
 //Nested Destructuring
-    const users=[];
-    const[]=users;
-    const[user1, user2, user3, user4]=users;
+    const users=[
+        {userId:1, userName:"Faizan", gender:"Male"},
+        {userId:2, userName:"Raza", gender:"Male"},
+        {userId:3, userName:"Kuldip", gender:"Male"},
+        {userId:4, userName:"Nikita", gender:"Female"},
+    ];
+    // const[user1, user2, user3, user4]=users;
+    // console.log(user1);
+
+    const[{userName}, ,{gender}, ,{userId}]=users;
     console.log(user1);
+    

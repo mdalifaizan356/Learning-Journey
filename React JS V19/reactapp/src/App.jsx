@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 // import banner = '../public/banner1.jpg'
 import './App.css'
+import Footer from '../components/Footer'
 
 function App() {
   return (
@@ -12,12 +13,13 @@ function App() {
         <MyFunction />
         <MyFunction />
         <MyFunction />
+        <Footer />
       </div>
     </>
   )
 }
 
-
+    
 const MyFunction =()=>{
   return(
     <>
